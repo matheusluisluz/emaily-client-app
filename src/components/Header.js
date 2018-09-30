@@ -4,15 +4,15 @@ class Header extends Component {
   render() {
     return (
       <nav>
-        <div class="nav-wrapper">
-          <a href="/" class="left brand-logo">Emaily</a>
-          <ul id="nav-mobile" class="right">
+        <div className="nav-wrapper">
+          <a href="/" className="left brand-logo">Emaily</a>
+          <ul id="nav-mobile" className="right">
             <li><a href="">Log With Google </a></li>
           </ul>
         </div>
       </nav>
     );
   }
-}
+};
 
 export default Header;
